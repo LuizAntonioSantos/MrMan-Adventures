@@ -1,57 +1,77 @@
-# chonGame
-A JavaFX game for learning the main concepts from the object-oriented approach.
-Teaching Units: <strong>Linguagens e Técnicas de Programação II</strong> e <strong>Introdução a Orientação a Objetos</Strong>.
+# Mr. Man Adventures 🎮  
 
-## Como Contribuir Nesse Repositório:
+**Um jogo de RPG/Ação top-down desenvolvido em Java usando a ChonEngine**  
 
-- **Requisitos**: você precisa ser aluno ou monitor da disciplina ou, ainda, trabalhar em algum projeto de pesquisa.
-- **Criar uma Branch**: após clonar o projeto em alguma IDE, é preciso criar uma branch baseada em algumas das categorias abaixo, de acordo com a funcionalidade desenvolvida.
+![Menu do Jogo](img/MenuImg.jpg)  
 
-| Category        | Meaning                                                                     |
-| --------------- | --------------------------------------------------------------------------- |
-| `wip`           | for a work in progress                                                      |
-| `feature`       | for adding, removing or modifying a feature                                 |
-| `experimental`  | for experimenting something which is not an issue                           |
-| `hotfix`        | for quickly fixing critical issues, usually with a temporary solution Cell  |
-| `bugfix`        | for fixing a bug                                                            |
+---
 
-> Exemplo de criação de uma branch para resolução de uma lista de exercícios:
-  ```
-  git checkout -b wip-primeiro-último-nome-projeto
-  git checkout -b feature-primeiro-último_nome-feature-em-desenvolvimento
-  ```
+## 📖 Sobre o Jogo  
+Mr. Man Adventures é um jogo inspirado nos clássicos do gênero como *The Legend of Zelda: A Link to the Past* e *Secret of Mana*, com elementos de *beat 'em ups* como *Teenage Mutant Ninja Turtles: Turtles in Time*.  
 
-- **Adicionar os arquivos**: após a implementação das funcionalidades, adicione os arquivos alterados para prepará-los para confirmação e envio a este repositório.
-> Exemplo de adição de todos os arquivos modificados:
-  ```
-  git add .
-  ```
+**Características principais:**  
+- 4 fases com desafios únicos  
+- Chefes diferentes em cada fase  
+- Combate dinâmico e sistema de itens  
+- Trilha sonora retrô e arte pixel art  
 
-- **Realizar o commit localmente**: confirmar as modificações que precisam ser enviadas para serem avaliadas pelo responsável do repositório. Sempre adicione uma mensagem sobre o que foi realizado na confirmação.  
-> Exemplo de um commit com uma mensagem:
-  ```
-  git commit -m "Uploading the new branch for the fixing a bug."
-  ```
+---
 
-- **Efetuar o push**: envie suas modificações sempre que quiseres que tuas modificações sejam persistidas on-line no repositório e na branch criada anteriormente.
-> Exemplo de como enviar as modificações confirmadas quando a branch ainda não existir no repositório:
-  ```
-  git push --set-upstream origin wip-exercícios-14-ao-20
-  ```
+## ⚙️ Requisitos e Instalação  
 
-> Exemplo de como enviar as modificações confirmadas para o repositório:
-  ```
-  git push
-  ```
+## 📋 Pré-requisitos  
+- Java JDK 8 ou superior  
+- IDE (IntelliJ, Eclipse) ou VS Code com extensões Java  
 
-- **Solicitar mesclagem**: para que as modificações sejam refletidas no branch principal (`main`), é necessaŕio realizar um `pull request`. Esta solicitação é responsável por informar a outras pessoas sobre as alterações feitas em uma ramificação de um repositório. 
-> Utilize o GitHub para realizar esta etapa.
+---
 
-## Instruções Úteis:
+## 🚀 Como Executar  
+1. Clone o repositório:  
+   ```bash
+   git clone https://github.com/seu-usuario/repositorio.git
+   cd repositorio
+   git checkout game-mrmanadventures
+   ```
+2. Importe e execute o projeto 
+  ## IntelliJ / Eclipse
+  1. Vá em `File > Open Project`
+  2. Selecione a pasta do projeto
 
-- **Criar uma branch a partir de uma outra**: se enventualmente modificações ocorreram em uma branch e é preciso levar essas modificações para uma outra branch.
-> Exemplo de como criar a branch wip-nova-branch a partir da branch atual.
-```
-git checkout -b wip-nova-branch
-```
+  ## VS Code
+  1. Abra a pasta do projeto
+  2. Instale as extensões Java recomendadas
+  
+  ## Execução
+  - Localize a classe `Engine.java`
+  - Rode o projeto:
+    - **IntelliJ**: `Shift + F10`
+    - **VS Code**: `Ctrl + F5`
+   
+---
 
+## 🛠️ Tecnologias Utilizadas
+
+- Java 8+ (Programação Orientada a Objetos)
+- **ChonEngine** (Motor gráfico)
+- Assets do [OpenGameArt](https://opengameart.org/)
+
+---
+
+## 📜 Créditos
+
+## Sprites:
+- **Personagem**: [Mr.Man](https://opengameart.org/content/classic-hero)
+- **Inimigos**: [Mago](https://opengameart.org/content/mr-necromancer-man-animated), [Goblins](https://opengameart.org/content/lpc-goblin), [Golem](https://opengameart.org/content/lpc-golem), [Backgrounds](https://opengameart.org/content/backgrounds-3), [Bolo](https://opengameart.org/content/cake-32x32), [Slash](https://opengameart.org/content/weapon-slash-effect), [Poções](https://opengameart.org/content/shiny-rpg-potions-16x16)
+
+## Músicas:
+- Kevin MacLeod: [Pixelland](https://www.youtube.com/watch?v=HUCjaaQR6cs), [Cruising for Goblins](https://www.youtube.com/watch?v=HruhkxJHz2U&list=PLbb_NncyMIqtFkRVdRZDpsFFWusa5cCw6&index=17), [Video Dungeon Boss](https://www.youtube.com/watch?v=geT22uolrcY&list=PLbb_NncyMIqtFkRVdRZDpsFFWusa5cCw6&index=7)
+- Jeremy Blake: [Powerup!](https://www.youtube.com/watch?v=l7SwiFWOQqM)
+- Adventure Chiptunes: [START](https://www.youtube.com/watch?v=7NBFP0od1ws&list=RD7NBFP0od1ws&start_radio=1)
+- Creator Assets: [8-Bit Coin Sound Effect](https://www.youtube.com/watch?v=5v20ztxGvQ0)
+
+## Agradecimentos Especiais:
+- Professor Carlos Pantoja
+
+---
+
+## Espero que gostem :)
