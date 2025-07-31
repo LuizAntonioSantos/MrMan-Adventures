@@ -61,7 +61,9 @@ Mr. Man Adventures é um jogo inspirado nos clássicos do gênero como *The Lege
 
 ## Sprites:
 - **Personagem**: [Mr.Man](https://opengameart.org/content/classic-hero)
-- **Inimigos**: [Mago](https://opengameart.org/content/mr-necromancer-man-animated), [Goblins](https://opengameart.org/content/lpc-goblin), [Golem](https://opengameart.org/content/lpc-golem), [Backgrounds](https://opengameart.org/content/backgrounds-3), [Bolo](https://opengameart.org/content/cake-32x32), [Slash](https://opengameart.org/content/weapon-slash-effect), [Poções](https://opengameart.org/content/shiny-rpg-potions-16x16)
+- **Inimigos**: [Mago](https://opengameart.org/content/mr-necromancer-man-animated), [Goblins](https://opengameart.org/content/lpc-goblin), [Golem](https://opengameart.org/content/lpc-golem)
+- **Fundos de Jogo**: [Backgrounds](https://opengameart.org/content/backgrounds-3)
+- **Outros**: [Bolo](https://opengameart.org/content/cake-32x32), [Slash](https://opengameart.org/content/weapon-slash-effect), [Poções](https://opengameart.org/content/shiny-rpg-potions-16x16)
 
 ## Músicas:
 - Kevin MacLeod: [Pixelland](https://www.youtube.com/watch?v=HUCjaaQR6cs), [Cruising for Goblins](https://www.youtube.com/watch?v=HruhkxJHz2U&list=PLbb_NncyMIqtFkRVdRZDpsFFWusa5cCw6&index=17), [Video Dungeon Boss](https://www.youtube.com/watch?v=geT22uolrcY&list=PLbb_NncyMIqtFkRVdRZDpsFFWusa5cCw6&index=7)
