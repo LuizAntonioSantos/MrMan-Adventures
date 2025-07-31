@@ -2,7 +2,7 @@
 
 **Um jogo de RPG/Ação top-down desenvolvido em Java usando a ChonEngine**  
 
-![Menu do Jogo](img/MenuImg.jpg)  
+![Menu do Jogo](course/img/MenuImg.jpg)  
 
 ---
 
